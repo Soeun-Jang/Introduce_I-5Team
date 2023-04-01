@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,400;1,600;1,700;1,900&display=swap');
+
+/*정은님 CSS*/
+.je_cont_in {
+    background: linear-gradient(to bottom, #D1D0CB, rgba(132, 192, 218, 0.3), rgba(132, 192, 218, 0.68), #84C0DA);
+    height: 800px;
+}
+
+.je_back {
+    background-color: #84C0DA;
+
+    width: 100%;
+    height: 100px;
+}
+
+.je_container {
+    background-color: #84C0DA;
+
+    width: 100%;
+    height: 2250px;
+}
+
+.je_first_background {
+    background-image: url("../img/je_profile.png");
+    
+}
+.all_f_box {
+    width: 100%;
+    height: 600px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius:25px;
+}
+.je_ment_icon {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dh_ment_box {
+    width: 550px;
+    height: 600px;
+
+    margin-right: 30px;
+}
+
+.je_just_box {
+    width: 420px;
+    height: 400px;
+}
+
+.je_second_box {
+    background-image: url("../img/je_detail.png");
+}
+
+
+/*동현님 CSS*/
+.dh_cont_in {
+    background: linear-gradient(to bottom, #84C0DA, #9ABDC5, #C5B79A, #DAB384);
+    height: 800px;
+}
+
+.dh_container {
+    background-color: #DAB384;
+
+    width: 100%;
+    height: 2250px;
+}
+
+.dh_back {
+    background-color: #DAB384;
+
+    width: 100%;
+    height: 100px;
+}
+
+.dh_first_background {
+    background-image: url("../img/dh_profile.png");
+}
+
+.dh_ment_icon {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dh_ment_box {
+    width: 585px;
+    height: 600px;
+
+    margin-right: 30px;
+}
+
+.dh_box {
+    width: 420px;
+    height: 400px;
+}
+
+.dh_second_box {
+    background-image: url("../img/dh_detail.png");
+}
+
+
+/*소은님 CSS*/
+.se_cont_in {
+    background: linear-gradient(to bottom, #DAB384, #C9A487, #AD8C8B, #8E718F, #5F4793);
+    height: 800px;
+}
+
+.se_container {
+    background-color: #5F4793;
+
+    width: 100%;
+    height: 2100px;
+}
+
+.se_back {
+    background-color: #5F4793;
+
+    width: 100%;
+    height: 100px;
+}
+
+.main {
+    padding: 50px 270px;
+}
+
+/*메인 프로필 이미지 공간*/
+.se_first_background {
+    background-image: url("../img/se_profile.png");
+}
+
+.je_ment_icon {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.se_ment_box {
+    width: 500px;
+    height: 600px;
+}
+
+/*상세 프로필 이미지 공간*/
+.se_second_box {
+    background-image: url("../img/se_detail.png");
+}
+
+.sh_container {
+    background-color: #196642;
+
+    width: 100%;
+    height: 2250px;
+}
+/*메인 프로필 이미지 공간*/
+.sh_first_background {
+    background-image: url("../img/sh_profile.png");
+}
+
+.sh_ment_icon {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.sh_ment_box {
+    width: 500px;
+    height: 600px;
+}
+
+/*상세 프로필 이미지 공간*/
+.sh_second_box {
+    background-image: url("../img/sh_detail.png");
+}
+.all_class {
+    width: 100%;
+    height: 1362px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*코멘트스타일*/
+.comment_cont_in {
+    background: linear-gradient(to bottom, #196642, #3d6644, #57674a, #71674F);
+    height: 800px;
+}
+
+.comment_back {
+    background-color: #71674F;
+
+    width: 100%;
+    height: 100px;
+}
+
+.sh-comment_container {
+    width: 100%;
+    height: auto;
+
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+}
+
+.sh-comment_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sh_comment_title {
+    background-color: #71674F;
+
+    width: 100%;
+    height: 200px;
+
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    text-shadow: 5px 5px #2a2a2a;
+
+    text-align: center;
+
+    border-bottom: 2px solid #a19883;
+}
+
+.sh_comment_input_margin {
+    width: 100%;
+    height: auto;
+    padding: 90px 330px;
+}
+
+.sh-comment-inputbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 5px double #c5b693;
+}
+
+.sh-comment_namebox {
+    background-color: transparent;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    border-bottom: 2px solid #C8C2B5;
+    border-radius: 5px;
+}
+
+.sh-comment_name_pw {
+    background-color: #C8C2B5;
+    width: 180px;
+
+    text-align: center;
+    padding: 8px 20px;
+
+    font-family: 'Sansita', sans-serif;
+    color: #3b4044;
+    font-size: 30px;
+}
+
+.sh_comment_nameinput {
+    background-color: transparent;
+
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.sh_comment-pwbox {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #C8C2B5;
+    border-radius: 5px;
+}
+
+.sh_comment-pwinput {
+    background-color: transparent;
+
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    placeholder: "비밀번호를 입력해주세요"
+}
+
+.sh_comment-bigbox {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sh_comment-bigline {
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sh_comment_biginput {
+    width: 680px;
+    height: 380px;
+
+    margin-top: 30px;
+
+    background-color: #e7ddce;
+    box-shadow: inset 0 0 10px #a19883;
+
+    font-size: 25px;
+    placeholder: "내용을 작성해주세요";
+}
+
+.sh_comment_btn {
+    border: transparent;
+    background-color: #C8C2B5;
+    box-shadow: 2px 2px 1px #aba28b;
+
+    margin: 15px;
+    padding: 7px 13px;
+
+    font-size: 20px;
+    float: right;
+
+    color: white;
+    text-shadow: 1px 1px #6c757d;
+}
+
+.sh_comment_btn:hover {
+    color: #d3d3d3;
+    background-color: #e7ddce;
+    box-shadow: 2px 2px 1px #c8c2b5;
+}
+
+.sh_out-container {
+    border: 5px double #c5b693;
+
+    padding: 0px 170px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh_out-nickname {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 35px;
+
+    width: 180px;
+
+    text-align: center;
+
+    color: #3b4044;
+
+    background-color: #C8C2B5;
+
+    text-align: center;
+}
+
+.sh_out-commentbox {
+
+    background-color: #e7ddce;
+    box-shadow: #a19883;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sh_out-comment {
+    margin-top: 10px;
+    padding: 10px 25px;
+
+
+    font-size: 25px;
+    flex: 1;
+}
+
+.sh_clean_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.sh_clean_input {
+    background-color: #e7ddce;
+    box-shadow: inset 0 0 3px #a19883;
+
+    width: 200px;
+    height: 44px;
+    font-size: 30px;
+}
+
+.sh_clean_btn {
+    border: transparent;
+    background-color: #C8C2B5;
+    box-shadow: 0px 0px 1px #aba28b;
+
+    padding: 7px 13px;
+
+    font-size: 20px;
+    float: right;
+
+    color: white;
+    text-shadow: 1px 1px #6c757d;
+    margin: 20px 0px;
+}
+
+.sh_bar {
+    width: 714px;
+    border: 1px solid rgba(161, 152, 131, 0.42);
+    border-radius: 5px;
+}
+
+#guest_cards_wrap {
+    padding: 0px 330px;
+}
+.guestbox {
+    border:5px double #c5b693;
+    padding:20px;
+    margin-bottom: 20px;
+}
+.guestbox > p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 700;
+}
+.guestbox .comment_box {
+    margin-bottom: 20px;
+}
+.guestbox .comment_box p {
+    font-size: 1.5rem;
+    color: #000;
+}
+.guestbox .pw {
+    display: flex;
+    justify-content: space-between;
+}
+.guestbox .pw input[type^=pass] {
+    padding: 10px;
+    border: 1px solid #c5b693;
+}
+.guestbox .pw button {
+    border: 1px solid #c5b693;
+    padding: 10px 20px;
+}
+
+.guestbox .pw button:hover {
+    color: #fff;
+    background-color: #c5b693;
+    border: 1px double #fff;
+}

@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,400;1,600;1,700;1,900&display=swap');
+
+.main_header {
+    width: 100%;
+    position: fixed;
+    background-color: #C8C2B5;
+    z-index: 999;
+
+    white-space: nowrap;
+    display: block;
+}
+
+.je_header {
+
+    width: 100%;
+    position: fixed;
+    background-color: #C8C2B5;
+    z-index: 999;
+
+    white-space: nowrap;
+    display: block;
+}
+
+.dh_header {
+    width: 100%;
+    position: fixed;
+    background-color: #C8C2B5;
+    z-index: 999;
+
+    white-space: nowrap;
+    display: block;
+}
+
+.se_header {
+    width: 100%;
+    position: fixed;
+    background-color: #C8C2B5;
+    z-index: 999;
+
+    white-space: nowrap;
+    display: block;
+}
+
+.sh_heater {
+
+    width: 100%;
+    position: fixed;
+    background-color: #C8C2B5;
+    z-index: 999;
+
+    white-space: nowrap;
+    display: block;
+}
+
+.sh_header-fluid {
+    width: auto;
+    margin: 20px 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sh_team_name {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding: 5px;
+    transition: text-shadow 0.5s ease;
+}
+
+.sh_team_name:hover {
+    color: white;
+    text-shadow: 3px 3px #6c757d;
+}
+
+.sh_team_name2 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding: 5px;
+    color: white;
+    text-shadow: 3px 3px #6c757d;
+}
+
+.sh_team_member {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    width: 500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sh_nav-link {
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+    transition: text-shadow 0.5s ease;
+}
+
+.sh_nav-link:hover {
+    color: white;
+    text-shadow: 2px 2px #6c757d;
+}
+
+.sh_header_comment_btn {
+    margin-right: 50px;
+    margin-left: auto;
+    font-size: 22px;
+    transition: text-shadow 0.5s ease;
+}
+
+.sh_header_comment_btn:hover {
+    color: white;
+    text-shadow: 2px 2px #6c757d;
+}
+
+.sh_block {
+    height: 95px;
+    width: 100%;
+}
+
+.sh_i5_intro_cont {
+    background-color: rgba(209, 208, 203, 0.44);
+}
+
+.sh_i5_intro_box {
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sh_i5_intro_title {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 110px 100px 120px 100px;
+}
+
+.sh_B_bar {
+    width: 50px;
+    border: 2px solid rgb(199, 188, 165);
+    border-radius: 2px;
+}
+
+.sh_i5_intro_textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 130px;
+    font-size: 23px;
+}
+
+.sh_i5_intro_text {
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.sh_intro_mimotitle {
+    height: auto;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+
+
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 3px 3px white;
+}
+
+.sh_i5_intro_photo_box {
+    width: 100%;
+
+    margin-top: 100px;
+
+    height: 1100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sh_column {
+    width: 550px;
+    height: 950px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px;
+}
+
+/*미모티콘 폴라로이드 이미지 클래스*/
+.sh_i5_mbti_1 {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+
+    margin: 10px;
+}
+.sh1 {
+    background-image:url(../img/je.png);/* 정은 */
+}
+.sh2 {
+    background-image:url(../img/dh.png);/* 동현 */
+}
+.sh3 {
+    background-image:url(../img/se.png);/* 소은 */
+}
+.sh4 {
+    background-image:url(../img/sh.png);/* 세희 */
+}
+
+.sh_footer {
+    margin-top: 120px;
+
+    width: 100%;
+    height: 300px;
+    background-color: #71674F;
+}
+
+.footer_container {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer_1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+
+    margin: 40px 0px;
+}
+
+.footer_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.footer_tistory {
+    color: rgba(255, 255, 255, 0.82);
+    margin-bottom: 25px;
+}
+
+.footer_link1 {
+    font-size: 20px;
+    margin: 6px;
+    color: black;
+    transition: text-shadow 0.3s ease;
+}
+
+.footer_link1:hover {
+    transition: color-change 0.5s ease;
+    color: rgba(255, 255, 255, 0.82);
+    text-shadow: 3px 3px #6c757d;
+}
+
+.footer_team_name {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.82);
+    text-shadow: 5px 5px #3e4348;
+}
+
+.footer_title {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px #3e4348;
+}
